@@ -46,4 +46,5 @@ public class Person3 {
 		StringBuilder sb = new StringBuilder(input);
 		return sb.reverse().toString();
 	}
+
 }
