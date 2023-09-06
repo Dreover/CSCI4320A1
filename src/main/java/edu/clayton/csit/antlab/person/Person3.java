@@ -5,7 +5,8 @@ package edu.clayton.csit.antlab.person;;
  *  reversed string 
  *  
  *  @author  Qu
- *  @version 1.1
+ *  @version 1.2
+ *  @author Monte
  */
 public class Person3 {
    /** Holds the persons real name */  
@@ -42,7 +43,7 @@ public class Person3 {
 	 * @return the reversed string
 	 */
 	private String calc(String input) {
-	  //Person 3 put your implementation here
-	  return null;
+		StringBuilder sb = new StringBuilder(input);
+		return sb.reverse().toString();
 	}
 }
