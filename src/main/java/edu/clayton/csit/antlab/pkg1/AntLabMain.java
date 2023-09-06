@@ -55,8 +55,8 @@ public class AntLabMain {
         toPrint += p1.toString("9007311802");
         // Person2 replace P2 with your name
         // and csuLaker with your laker id
-        Person2 p2 = new Person2("P2");
-        toPrint += p2.toString("csuLaker2");
+        Person2 p2 = new Person2("Yonatan Yesuf");
+        toPrint += p2.toString("900708903");
         // Person3 replace P3 with your name
         // and csuLaker3 with your laker id
         Person3 p3 = new Person3("P3");
