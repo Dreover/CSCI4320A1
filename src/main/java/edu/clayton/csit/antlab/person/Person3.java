@@ -5,7 +5,8 @@ package edu.clayton.csit.antlab.person;;
  *  reversed string 
  *  
  *  @author  Qu
- *  @version 1.1
+ *  @version 1.2
+ *  @author Monte
  */
 public class Person3 {
    /** Holds the persons real name */  
