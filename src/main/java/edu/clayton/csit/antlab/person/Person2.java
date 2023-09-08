@@ -33,7 +33,7 @@ public class Person2 {
 	  //Person 2 put your implementation here
 		char [] characters = input.toCharArray();
 		for(i=0; i < characters.length; i++){
-		
+		    return input;
 		}
 	  return null;
 	}
