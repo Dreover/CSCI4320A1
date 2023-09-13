@@ -31,9 +31,25 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
-		char [] characters = input.toCharArray();
-		for(int i=0; i < characters.length; i++){
-		    return input;
+    String characters = "abcdefghijklmnopqrstuvwxyz";
+    String numbers = "0123456789";
+
+    String alphaNumeric = characters + numbers;
+    StringBuilder sb = new StringBuilder();
+    Random random = new Random();
+
+    int length = 10;
+
+    for(int i = 0; i < length; i++) {
+
+      int index = random.nextInt(alphaNumeric.length());
+      char randomChar = alphaNumeric.charAt(index);
+      sb.append(randomChar);
+    }
+
+    String randomString = sb.toString();
+    System.out.println("Random String is: " + randomString);{
+		    
 		}
 	  return null;
 	}
